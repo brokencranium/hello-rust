@@ -1,6 +1,8 @@
 mod debug;
 mod display;
+mod generics;
 mod lifetime;
+mod macros;
 mod ownership;
 mod print_options;
 mod structures;
@@ -11,7 +13,9 @@ mod traits;
 // use ownership::ownership;
 // use lifetime::lifetime;
 // use structures::structures;
-use traits::traits;
+// use traits::traits;
+// use macros::macros;
+use generics::generics;
 
 // use std::io;
 // use rand::{thread_rng,Rng};
@@ -39,5 +43,7 @@ fn main() {
     // ownership();
     // lifetime();
     // structures();
-    traits();
+    // traits();
+    // macros();
+    generics();
 }
